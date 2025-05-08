@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <title>Online Learning Platform</title>
+</head>
+<body>
+    <header>
+        <h1>Online Learning Platform</h1>
+    </header>
+
+    <main>
+        <section id="video-lessons">
+            <h2>Video Lessons</h2>
+            <video id="lesson-video" controls>
+                <source src="https://youtu.be/cgevFXh7Ivo?si=7jts7V07H_CiA0i-.mp4" type="video/mp4">
+    
+            </video>
+        </section>
+
+        <section id="quizzes">
+            <h2>Quizzes</h2>
+            <form id="quiz-form">
+                <label>Question 1: What is 2 + 2?</label>
+                <input type="text" id="answer1" required>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="quiz-response"></p>
+        </section>
+
+        <section id="progress-tracking">
+            <h2>Progress Tracking</h2>
+            <button id="track-progress">Track Progress</button>
+            <p id="progress-message"></p>
+        </section>
+    </main>
+
+    <script src="task2.js"></script>
+</body>
+</html>
